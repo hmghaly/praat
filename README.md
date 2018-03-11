@@ -1,6 +1,7 @@
 # Praat Tools
 A suite of python tools to manipulate Praat software, running it with certain inputs and processing its textgrid file formats
 
+# TextGrid Processing
 For the textgrid format:
 http://www.fon.hum.uva.nl/praat/manual/TextGrid_file_formats.html
 
@@ -8,6 +9,7 @@ One initial task is to convert it into something that can be more easily process
 
 ## Command line
 Usage: textgrid_lib.py /input/directory/path/file.textgrid /output/directory/file.json -order
+
 hint: -order is optional, the default is that elements (points/intervals) are in unordered dictionary, so if you specify -order they are in an ordered list
 
 ## within python code
